@@ -1,13 +1,26 @@
-const person = {
-    firstname: 'Gerald',
-    lastname: 'Akinola',
-    age: 30,
-    hobbies: ['music', 'movies', 'sleep'],
-    address: {
-        street: '30 main st',
-        city: 'boston', 
-        state: 'MA'
-    }
-   }
+const todos = [
+    {
+        id: 1,
+        text: 'Take out Trash',
+        isCompleted: true
+    },
 
-   console.log(person.hobbies[1]);
+
+ 
+    {
+        id: 2,
+        text: 'Meeting with Boss',
+        isCompleted: true
+    },
+
+
+ 
+    {
+        id: 3,
+        text: 'Dentist appt',
+        isCompleted: false
+    }
+];
+
+const todoJSON = JSON.stringify(todos);
+console.log(todos);
