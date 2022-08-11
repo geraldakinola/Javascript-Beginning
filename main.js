@@ -1,53 +1,22 @@
-const todos = [
-    {
-        id: 1,
-        text: 'Take out Trash',
-        isCompleted: true
-    },
-
-
- 
-    {
-        id: 2,
-        text: 'Meeting with Boss',
-        isCompleted: true
-    },
-
-
- 
-    {
-        id: 3,
-        text: `Dentist appt`,
-        isCompleted: false
-    }
-];
-
-
-const myname = 'bola'
 
 
 
-// for 
+const names= ['Bolas', 'Topesss', 'Sades', 'Temisss']
 
-const todoJSON = JSON.stringify(todos);
-console.log(todos);
 
-console.log('My name is ' + myname + ' and i am 6 years old')
+// for(let i = 0; i < names.length; i++){
+//    console.log(names[i])
+// }
 
-//console.log(`My name is ${myname} and i am 6 years old` ${todos[0].text})
 
-console.log(console)
+names.forEach(person=>{
+    console.log(`Welcome to my party ${person}`)
+})
 
-const person = {}
-person.name= 'Tope'
-person.age= 21
-
-console.log(person)
-
-console.log(todos[0].text)
-
-const callmyname = function(name){
-    console.log(`Welcome ${name}`)
+const namestoprint =names.filter(person=>{
+    return person.length===4
 }
+    
+    )
 
-callmname('Tope')
+    console.log(namestoprint)
