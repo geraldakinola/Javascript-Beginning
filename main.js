@@ -17,5 +17,8 @@ const todos = [{
 },
 ];
 
-const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
+//For
+for(let gerald of todos) {
+    console.log(gerald.isCompleted)
+}
+
