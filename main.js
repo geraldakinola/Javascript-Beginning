@@ -1,16 +1,21 @@
-const person = {
-    firstname: 'John',
-    lastname: 'akinola',
-    age: 30, 
-    hobbies: ['sky diving', 'movies', 'sports'],
-    address: {
-        street: '50 main st',
-        city: 'Boston',
-        state: 'MA'
-    }
-}
+//Arrays of Object
 
+const todos = [{
+  id: 1,
+    text: 'take out trash',
+    isCompleted: true
+},
+{
+  id: 2,
+    text: 'meeting with boss',
+    isCompleted: true
+},
+{
+  id: 3,
+    text: 'dentist appt',
+    isCompleted: false
+},
+];
 
-const {firstname, lastname, address: {city}} = person
-
-console.log(city)
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
