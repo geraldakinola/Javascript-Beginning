@@ -1,11 +1,16 @@
-const fruits = ['orange', 'pineapple','paw-paw', 'cocoa']
+const person = {
+    firstname: 'John',
+    lastname: 'akinola',
+    age: 30, 
+    hobbies: ['sky diving', 'movies', 'sports'],
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
 
-fruits[4] = 'mango'
 
+const {firstname, lastname, address: {city}} = person
 
-fruits.push('mangos')
-console.log(fruits.indexOf('cocoa'))
-console.log(Array.isArray('orange'))
-
-
-console.log(fruits);
+console.log(city)
