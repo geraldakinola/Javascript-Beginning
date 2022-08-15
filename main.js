@@ -17,8 +17,8 @@ const todos = [{
 },
 ];
 
-//For
-for(let gerald of todos) {
-    console.log(gerald.isCompleted)
-}
+//Foreach, map, filter
+todos.forEach(function(gerald){
+    console.log(gerad.text)
+})
 
