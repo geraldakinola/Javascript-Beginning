@@ -1,6 +1,4 @@
-const x = 6;
-const y = 11;
+const x = 20
+const color = x>10 ? 'red' : 'green';
 
-if (x>5 && y>10) {
-  console.log('x is more than 5 or y is more than 10');
-}
+console.log(color)
