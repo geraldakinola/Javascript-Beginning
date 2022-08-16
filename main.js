@@ -1,24 +1,6 @@
-//Arrays of Object
+const x = 6;
+const y = 11;
 
-const todos = [{
-  id: 1,
-    text: 'take out trash',
-    isCompleted: true
-},
-{
-  id: 2,
-    text: 'meeting with boss',
-    isCompleted: true
-},
-{
-  id: 3,
-    text: 'dentist appt',
-    isCompleted: false
-},
-];
-
-//Foreach, map, filter
-todos.forEach(function(gerald){
-    console.log(gerad.text)
-})
-
+if (x>5 && y>10) {
+  console.log('x is more than 5 or y is more than 10');
+}
