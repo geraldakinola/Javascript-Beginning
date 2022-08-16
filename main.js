@@ -1,17 +1,4 @@
-const x = 9; 
-const color = 'green';
+//function
+const addNums = num1 => num1 + num1 + 5
 
-console.log(color)
-switch(color){
-  case 'red':
-  console.log('color is red');
-  break;
-  case 'blue':
-  console.log('color is green')
-  break;
- default:
-  console.log ('color is NOT red or green');
-  break;
-  
-
-}
+console.log(addNums(10));
