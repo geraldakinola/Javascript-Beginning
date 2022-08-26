@@ -1,4 +1,8 @@
 // reference and primitive types 
-const number = 1;
-const num1 = number;
-console.log(num1);
+const person = {
+    name: 'Max'
+};
+const secondPerson = { ...person }
+person.name = 'Manu';
+
+console.log(secondPerson);
